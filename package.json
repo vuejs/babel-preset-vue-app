@@ -1,0 +1,33 @@
+{
+  "name": "babel-preset-vue-app",
+  "version": "0.0.0",
+  "description": "Complete babel presets for a Vue app.",
+  "repository": {
+    "url": "egoist/babel-preset-vue-app",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!' && npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-runtime": "^6.20.0"
+  }
+}
