@@ -2,19 +2,26 @@
 
 [![NPM version](https://img.shields.io/npm/v/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app) [![Build Status](https://img.shields.io/circleci/project/egoist/babel-preset-vue-app/master.svg?style=flat)](https://circleci.com/gh/egoist/babel-preset-vue-app) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+## Features
+
+- Latest ECMAScript feature (ES2015/2016/2017)
+- Stage-3 features
+- Transform Vue JSX
+- Transform `generator` and `async/await`
+
 ## Install
 
 ```bash
-yarn add babel-preset-vue-app
+yarn add babel-preset-vue-app --dev
 ```
 
 ## Usage
 
 ```js
-const babelPresetVueApp = require('babel-preset-vue-app')
-
-babelPresetVueApp()
-//=> foo
+// .babelrc
+{
+  "presets": ["vue-app"]
+}
 ```
 
 ## Contributing

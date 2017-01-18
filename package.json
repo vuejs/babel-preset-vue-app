@@ -11,7 +11,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "echo 'no tests!' && npm run lint",
+    "test": "npm run lint",
     "lint": "xo"
   },
   "author": "egoist <0x142857@gmail.com>",
