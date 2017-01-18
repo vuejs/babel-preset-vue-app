@@ -4,8 +4,8 @@
 
 ## Features
 
-- Latest ECMAScript feature (ES2015/2016/2017)
-- Stage-3 features
+- Latest ECMAScript features (ES2015/2016/2017)
+- Stage-2 features
 - Transform Vue JSX
 - Transform `generator` and `async/await`
 

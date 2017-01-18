@@ -12,7 +12,7 @@ const presets = [
   // vue jsx
   require.resolve('babel-preset-vue'),
   // stage-3 features
-  require.resolve('babel-preset-stage-3')
+  require.resolve('babel-preset-stage-2')
 ]
 
 const plugins = [

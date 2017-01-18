@@ -781,7 +781,7 @@ babel-preset-latest:
     babel-preset-es2016 "^6.16.0"
     babel-preset-es2017 "^6.16.0"
 
-babel-preset-stage-2@^6.17.0:
+babel-preset-stage-2, babel-preset-stage-2@^6.17.0:
   version "6.18.0"
   resolved "http://registry.npm.taobao.org/babel-preset-stage-2/download/babel-preset-stage-2-6.18.0.tgz#9eb7bf9a8e91c68260d5ba7500493caaada4b5b5"
   dependencies:
@@ -790,7 +790,7 @@ babel-preset-stage-2@^6.17.0:
     babel-plugin-transform-decorators "^6.13.0"
     babel-preset-stage-3 "^6.17.0"
 
-babel-preset-stage-3, babel-preset-stage-3@^6.17.0:
+babel-preset-stage-3@^6.17.0:
   version "6.17.0"
   resolved "http://registry.npm.taobao.org/babel-preset-stage-3/download/babel-preset-stage-3-6.17.0.tgz#b6638e46db6e91e3f889013d8ce143917c685e39"
   dependencies:
