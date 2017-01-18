@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-vue-app",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Complete babel presets for a Vue app.",
   "repository": {
     "url": "egoist/babel-preset-vue-app",
