@@ -11,7 +11,7 @@ const presets = [
   }],
   // vue jsx
   require.resolve('babel-preset-vue'),
-  // stage-3 features
+  // stage-2 features
   require.resolve('babel-preset-stage-2')
 ]
 
