@@ -1,6 +1,6 @@
 # babel-preset-vue-app
 
-[![NPM version](https://img.shields.io/npm/v/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app) [![Build Status](https://img.shields.io/circleci/project/egoist/babel-preset-vue-app/master.svg?style=flat)](https://circleci.com/gh/egoist/babel-preset-vue-app) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
+[![NPM version](https://img.shields.io/npm/v/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app)
 
 ## Features
 
@@ -33,9 +33,6 @@ yarn add babel-preset-vue-app --dev
 5. Submit a pull request :D
 
 
-## Author
+## License
 
-**babel-preset-vue-app** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/babel-preset-vue-app/contributors)).
-
-> [egoistian.com](https://egoistian.com) · GitHub [@egoist](https://github.com/egoist) · Twitter [@rem_rin_rin](https://twitter.com/rem_rin_rin)
+MIT.
