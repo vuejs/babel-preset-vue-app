@@ -4,7 +4,7 @@
 
 ## Features
 
-- Latest ECMAScript features (ES2015/2016/2017)
+- Latest ECMAScript features (babel-preset-env)
 - Stage-2 features
 - Transform Vue JSX
 - Transform `generator` and `async/await`

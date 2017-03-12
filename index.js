@@ -1,13 +1,21 @@
 'use strict'
 const path = require('path')
 
+const env = process.env.BABEL_ENV || process.env.NODE_ENV
+
 const presets = [
-  // latest ECMAScript features
-  [require.resolve('babel-preset-latest'), {
-    es2015: {
-      // do not transform to commonjs format, let webpack 2 or rollup handle this
-      modules: false
+  env === 'test' ?
+  [require('babel-preset-env').default, {
+    targets: {
+      node: 'current'
     }
+  }] :
+  [require('babel-preset-env').default, {
+    targets: {
+      ie: 9,
+      uglify: true
+    },
+    useBuiltIns: true
   }],
   // vue jsx
   require.resolve('babel-preset-vue'),
