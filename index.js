@@ -11,6 +11,7 @@ const presets = [
     }
   }] :
   [require('babel-preset-env').default, {
+    modules: false,
     targets: {
       ie: 9,
       uglify: true
