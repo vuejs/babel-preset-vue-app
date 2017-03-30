@@ -26,7 +26,7 @@ yarn add babel-preset-vue-app --dev
 
 ## Polyfill
 
-Object rest spread and Vue JSX needs the native `Object.assign` method, you should ship one yourself like this:
+Object rest spread needs the native `Object.assign` method, you should ship one yourself like this:
 
 ```js
 Object.assign = require('object.assign')
