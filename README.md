@@ -8,6 +8,7 @@
 - Object rest spread and dynamic import 
 - Transform Vue JSX
 - Transform `generator` and `async/await`
+- Transform `Object.assign`
 
 ## Install
 
@@ -23,22 +24,6 @@ yarn add babel-preset-vue-app --dev
   "presets": ["vue-app"]
 }
 ```
-
-## Polyfill
-
-Object rest spread needs the native `Object.assign` method, you should ship one yourself like this:
-
-```js
-Object.assign = require('object.assign')
-```
-
-Or using `babel-polyfill`:
-
-```js
-import 'babel-polyfill'
-```
-
-Note that `babel-polyfill` will polyfill everything we need in `IE9`.
 
 ## Contributing
 
