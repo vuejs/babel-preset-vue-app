@@ -7,8 +7,8 @@
 - Latest ECMAScript features (babel-preset-env)
 - Object rest spread and dynamic import 
 - Transform Vue JSX
-- Transform `generator`, `async/await`
-- Transform `Object.assign` (Object Spread & JSX support for all browsers)
+- Transform `generator` and `async/await`
+- Transform `Object.assign`
 
 ## Install
 
