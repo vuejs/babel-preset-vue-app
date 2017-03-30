@@ -46,6 +46,8 @@ const plugins = [
   }],
   // For dynamic import that you will use a lot in code-split
   require.resolve('babel-plugin-syntax-dynamic-import')
+  // Transforms are generated Object.assigns
+  require.resolve('babel-plugin-transform-object-assign')
 ]
 
 module.exports = {
