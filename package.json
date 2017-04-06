@@ -25,12 +25,9 @@
     "semicolon": false
   },
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-plugin-transform-regenerator": "^6.22.0",
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-env": "^1.2.1",
-    "babel-preset-stage-2": "^6.18.0",
     "babel-preset-vue": "^0.1.0",
     "babel-runtime": "^6.20.0"
   }
