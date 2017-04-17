@@ -11,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "jest && npm run lint",
+    "test": "jest && npm run lint && npm run build",
     "lint": "xo",
     "build": "bili --name index"
   },
