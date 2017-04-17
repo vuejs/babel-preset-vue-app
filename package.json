@@ -6,23 +6,43 @@
     "url": "egoist/babel-preset-vue-app",
     "type": "git"
   },
-  "main": "index.js",
+  "main": "dist/index.common.js",
   "files": [
-    "index.js"
+    "dist"
   ],
   "scripts": {
-    "test": "npm run lint",
-    "lint": "xo"
+    "test": "jest && npm run lint",
+    "lint": "xo",
+    "build": "bili --name index"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.17.0",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "bili": "^0.14.1",
+    "eslint-config-rem": "^3.0.0",
+    "jest": "^19.0.2",
+    "mz": "^2.6.0",
     "xo": "^0.17.1"
   },
   "xo": {
-    "space": 2,
-    "semicolon": false
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ]
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
   },
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",

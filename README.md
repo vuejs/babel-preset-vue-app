@@ -24,6 +24,15 @@ yarn add babel-preset-vue-app --dev
 }
 ```
 
+## Options
+
+### useBuiltIns
+
+Type: `boolean`<br>
+Default: `false`
+
+Disable runtime transform. i.e. do not add helpers and polyfill for unsupported features of target environment, eg: `Object.assign` `Promise`
+
 ## Contributing
 
 1. Fork it!
