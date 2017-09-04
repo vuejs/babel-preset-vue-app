@@ -42,7 +42,7 @@ Default: `{ ie: 9, uglify: true }`
 
 Takes an object of environment versions to support.
 
-As we're using `babel-preset-env` to determine the Babel plugins and polyfills you need, this option lets you adjust your supported environments. See `targets` in [babel-plugin-preset-env](https://www.npmjs.com/package/babel-preset-env).
+As we're using `babel-preset-env` to determine the Babel plugins and polyfills you need, this option lets you adjust your supported environments. See `targets` in [babel-preset-env](https://github.com/babel/babel-preset-env).
 
 Note: when env is "test" `targets` is always `{ node: 'current' }`.
 
