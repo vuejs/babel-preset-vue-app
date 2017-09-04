@@ -2,13 +2,11 @@ import path from 'path'
 
 export default function (context, {
   useBuiltIns,
-  targets
-} = {
-  targets: {
+  targets = {
     ie: 9,
     uglify: true
   }
-}) {
+} = {}) {
   const env = process.env.BABEL_ENV || process.env.NODE_ENV
 
   const presets = [
