@@ -40,9 +40,9 @@ test('generator function', async () => {
   expect(actual).not.toMatch('function * foo()')
 })
 
-test('envTargets', async () => {
+test('targets', async () => {
   const input = await fs.readFile('./fixture/async-function.js', 'utf8')
-  const actual = transform(input, { envTargets: { node: '8.4' } })
+  const actual = transform(input, { targets: { node: '8.4' } })
   expect(actual).not.toMatch('import _regeneratorRuntime from')
   expect(actual).not.toMatch('import _asyncToGenerator from')
   expect(actual).toMatch('async function')

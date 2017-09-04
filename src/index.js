@@ -2,9 +2,9 @@ import path from 'path'
 
 export default function (context, {
   useBuiltIns,
-  envTargets
+  targets
 } = {
-  envTargets: {
+  targets: {
     ie: 9,
     uglify: true
   }
@@ -21,7 +21,7 @@ export default function (context, {
     [require('babel-preset-env').default, {
       useBuiltIns,
       modules: false,
-      targets: envTargets
+      targets
     }],
     // vue jsx
     require.resolve('babel-preset-vue')
