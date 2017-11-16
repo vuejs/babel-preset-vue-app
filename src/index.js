@@ -5,11 +5,11 @@ export default function (context, {
   targets
 } = {}) {
   const env = process.env.BABEL_ENV || process.env.NODE_ENV
-  
+
   if (typeof targets === 'undefined') {
     targets = env === 'test' ? { node: 'current' } : { ie: 9, uglify: true }
   }
-  
+
   const presets = [
     env === 'test' ?
     [require('babel-preset-env').default, {
