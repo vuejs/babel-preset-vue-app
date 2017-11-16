@@ -38,13 +38,11 @@ As we're using `babel-plugin-transform-runtime` to polyfill your code without po
 ### targets
 
 Type: `object`<br>
-Default: `{ ie: 9, uglify: true }`
+Default: `{ node: 'current' }` when `env` is `test` or `{ ie: 9, uglify: true }` otherwise.
 
 Takes an object of environment versions to support.
 
 As we're using `babel-preset-env` to determine the Babel plugins and polyfills you need, this option lets you adjust your supported environments. See `targets` in [babel-preset-env](https://github.com/babel/babel-preset-env).
-
-Note: when env is "test" `targets` is always `{ node: 'current' }`.
 
 ## Contributing
 
