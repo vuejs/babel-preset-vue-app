@@ -2,24 +2,24 @@ import path from 'path'
 
 export default function (context, {
   useBuiltIns,
-  targets = {
-    ie: 9,
-    uglify: true
-  }
+  targets
 } = {}) {
   const env = process.env.BABEL_ENV || process.env.NODE_ENV
+
+  if (typeof targets === 'undefined') {
+    targets = env === 'test' ? { node: 'current' } : { ie: 9, uglify: true }
+  }
 
   const presets = [
     env === 'test' ?
     [require('babel-preset-env').default, {
-      targets: {
-        node: 'current'
-      }
+      useBuiltIns,
+      targets
     }] :
     [require('babel-preset-env').default, {
       useBuiltIns,
-      modules: false,
-      targets
+      targets,
+      modules: false
     }],
     // vue jsx
     require.resolve('babel-preset-vue')
