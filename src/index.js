@@ -28,7 +28,7 @@ export default function (context, {
   const plugins = [
     // Polyfills the runtime needed for async/await and generators
     [require.resolve('babel-plugin-transform-runtime'), {
-      helpers: !useBuiltIns,
+      helpers: true,
       polyfill: !useBuiltIns,
       regenerator: true,
       // Resolve the Babel runtime relative to the config.
