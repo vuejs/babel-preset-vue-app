@@ -1,4 +1,8 @@
-# babel-preset-vue-app
+# THIS REPOSITORY IS DEPRECATED
+
+We have deprecated this repository. Users should use vue-cli 3, which comes with its own babel preset.
+
+## babel-preset-vue-app
 
 [![NPM version](https://img.shields.io/npm/v/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/babel-preset-vue-app.svg?style=flat)](https://npmjs.com/package/babel-preset-vue-app)
 
