@@ -2,7 +2,8 @@ import path from 'path'
 
 export default function (context, {
   useBuiltIns,
-  targets
+  targets,
+  modules
 } = {}) {
   const env = process.env.BABEL_ENV || process.env.NODE_ENV
 
@@ -14,12 +15,13 @@ export default function (context, {
     env === 'test' ?
     [require('babel-preset-env').default, {
       useBuiltIns,
-      targets
+      targets,
+      modules
     }] :
     [require('babel-preset-env').default, {
       useBuiltIns,
       targets,
-      modules: false
+      modules: modules === undefined ? false : modules
     }],
     // vue jsx
     require.resolve('babel-preset-vue')
